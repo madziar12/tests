@@ -136,4 +136,34 @@ Operacje przypisania dokonujemy za pomocą znaku:
 - ==
 - +
 - *
+#Magdalena B., pytania cpp zestaw 1
 
+Ile bajtow (domniemanie) zajmuje zmienna typu int?
+- 16
++ 4
+- 8
+- 2
+
+Jak wyglada instrukcja przestrzeni nazw dla std?
++ using namespace std;
+- using std;
+- namespace std;
+- namespace using std;
+
+Kto jest tworca jezyka C++?
+- Bill Gates
+- Dennis Ritchie
++ Bjarne Stroustrup
+- Brian Kernighan
+
+Typ zmiennych float sluzy do przechowywania:
+- znakow
+- liczb calkowitych
++ liczb zmiennoprzecinkowych
+- lancuchow znakow
+
+Jaka jest pelna nazwa STL?
++ Standard Template Library
+- Standard Topics Library
+- System Template Library
+- System Topics Library
