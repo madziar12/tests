@@ -85,22 +85,23 @@ Funkcja czysto wirtualna to taka funkcja ktora:
 - wszystkie sa poprawne
 
 Klasa, od której inna klasa dziedziczy to:
++ klasa bazowa
 - predykat
 - przwodnik
 - klasa pierwotna
-+ klasa bazowa
 
 Wywolanie metody rysuj na rzecz obiektu pisak egzemplarza klasy malarz to:
++ pisak.rysuj();
 - rysuj();
 - malarz.pisak();
-+ pisak.rysuj();
 - malarz.rysuj();
 
 Konstruktor sluzy do:
-- odczytu pol klasy
 + inicjalizacji wlasciwosci
+- odczytu pol klasy
 - usuwania obiektu z pamieci
 - konstruowania metod
+
 
 #Magdalena B., pytania cpp zestaw 3
 
@@ -134,3 +135,33 @@ Ktory zapis przedstawia czysta funkcje wirtualna?
 - virtual void f() {} = 0;
 + zaden z powyzszych
 
+#Pytania Filip
+Po co są stosowane destruktory wirtualne:
++ aby zapewnić wywołanie wszystkich destruktorów klas pochodnych
+- aby w czasie destrukcji obiektu został wywołany również destruktor klasy bazowej
+- aby uniknąć błędu kompilacji
+- żadne z powyższych
+
+Obiekty okreslone jako protected sa dostepne dla:
++ tej klasy oraz klas dziedziczacych
+- tylko dla tej klasy
+- dla wszystkich
+- zadne z powyzszych
+
+Gdzie tworzone sa obiekty przy pomocy operatora 'new':
++ na stercie
+- na stosie
+- w zaleznosci gdzie jest wolna pamiec
+- zadne z powyzszych
+
+Co sie stanie jezeli w aplikacji zostanie uzyta biblioteka ale nie zostanie ona zlinkowana
++ bedzie blad linkowania
+- nic, kompilator sam zlinkuje
+- nastapi blad kompilacji
+- w momencie wywolania funkcji pojawi sie komunikat: segmentation fault
+
+Jak uzyskac dostep do elementow skladowych wskaznika:
+- .
++ ->
+- *
+- zadne z powyzszych
