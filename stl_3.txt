@@ -102,3 +102,35 @@ Wytlumacz roznice miedzy std::map a std::set:
 - std::map jest zdecydowanie wolniejsza
 + std::map posiada klucz oraz wartosc, std::set posiada tylko klucz 
 - std::set posiada klucz oraz wartosc, std::map posiada tylko klucz
+
+#Magdalena B., pytania stl zestaw 3
+
+Adapter w STL to:
+- stack
+- queue
+- priority_queue
++ wszystkie powyzej
+
+Jakie jest zastosowanie adaptera w STL?
++ aby zapewnic interfejs
+- aby manipulowac danymi
+- aby wyodrebnic dane
+- zadne z wymienionych
+
+Ktory z ponizszych typow powinien byc zdefiniowany w kontenerze?
+- typ wektora
++ typ iteratora
+- rodzaj pamieci
+- zaden z wymienionych
+
+Patrzac na nastepujacy kod: struct s {int a; double b;};, ktora deklaracja wektora jest poprawna?
+- vector<int> values(20);
+- vector<s> students;
++ vector<struct> structures;
+- vector<int> b;
+
+Patrzac na nastepujacy kod: vector<int> values(20);, ktory sposob przedstawia poprawna petle wszystkich elementow?
++ for(int i=0; i<values.size(); ++i){}
+- for(int i=0; i<20; ++i){}
+- for(int i=0; i<=20; ++i){}
+- for(int i=0; i<=values.size(); ++i){}
